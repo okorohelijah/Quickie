@@ -150,7 +150,7 @@ class HomePageState extends State<HomePage> {
   }
 
   Future<void> convertCurrency(String amount) async {
-    const String apiKey = '535c5e53c3ef0087cb0da8ba674fdcde';
+    const String apiKey = '535c5e53c3ef093674fdcde';
     const String url = 'https://data.fixer.io/api/latest?access_key=$apiKey&base=USD&symbols=NGN,JPY,EUR';
     // 'https://data.fixer.io/api/latest
     // ? access_key = 535c5e53c3ef0087cb0da8ba674fdcde
