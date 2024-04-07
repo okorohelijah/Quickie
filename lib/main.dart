@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const SignUpPage(),
         '/home': (context) => const HomePage(),
         '/login': (context) => const LoginPage(), // Ensure LoginPage is properly defined
+        // '/addCardDetails': (context) => PaymentScreen(),
       },
     );
   }

@@ -22,7 +22,7 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
   }
 }
 
-const List<Widget> tabs = <Widget>[
+List<Widget> tabs = <Widget>[
   Recipients(),
   NewPayees(),
 ];
@@ -53,7 +53,7 @@ class TabControllerExample extends StatelessWidget {
               ],
             ),
           ),
-          body: const TabBarView(
+          body: TabBarView(
             children: tabs,
           ),
         );
