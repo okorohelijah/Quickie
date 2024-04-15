@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73653702134",
+    "project_id": "quickie-23ff0",
+    "storage_bucket": "quickie-23ff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73653702134:android:5a7f8f49086a4b37ad0bd7",
+        "android_client_info": {
+          "package_name": "com.example.quickie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBODNhy-nesi245QotRPzcbCHyN_S50vnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
