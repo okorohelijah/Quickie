@@ -35,6 +35,7 @@ class HomePageState extends State<HomePage> {
       _convertedController.text = convertedAmount.toString();
     });
   }
+
   // void updateConvertedAmount(String amount) {
   //   final int usdAmount = int.tryParse(amount) ?? 0;
   //   final int convertedAmount = usdAmount % 2 == 0 ? 100 : 50;

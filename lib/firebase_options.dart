@@ -29,12 +29,12 @@ class DefaultFirebaseOptions {
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+              'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+              'you can reconfigure this by running the FlutterFire CLI again.',
         );
       default:
         throw UnsupportedError(
@@ -44,8 +44,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBJ9zuP_j5Joyg_Dw',
-    appId: 'AIzaSyBJ9zuP_j5Joyg_Dw',
+    apiKey: 'AIzaSyBJdSi6k2b5R1jAGM4f19zuP_j5Joyg_Dw',
+    appId: '1:73653702134:web:465c1a341771c85aad0bd7',
     messagingSenderId: '73653702134',
     projectId: 'quickie-23ff0',
     authDomain: 'quickie-23ff0.firebaseapp.com',
@@ -54,16 +54,16 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBJ9zuP_j5Joyg_Dw',
-    appId: 'AIzaSyBJ9zuP_j5Joyg_Dw',
+    apiKey: 'AIzaSyBODNhy-nesi245QotRPzcbCHyN_S50vnY',
+    appId: '1:73653702134:android:5a7f8f49086a4b37ad0bd7',
     messagingSenderId: '73653702134',
     projectId: 'quickie-23ff0',
     storageBucket: 'quickie-23ff0.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBJ9zuP_j5Joyg_Dw',
-    appId: '1:AIzaSyBJ9zuP_j5Joyg_Dwd7',
+    apiKey: 'AIzaSyB6uQuqKV3Pe-no9xvsl1R6h-0NmUwOMGQ',
+    appId: '1:73653702134:ios:6de6386f02722f23ad0bd7',
     messagingSenderId: '73653702134',
     projectId: 'quickie-23ff0',
     storageBucket: 'quickie-23ff0.appspot.com',
@@ -71,8 +71,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBJ9zuP_j5Joyg_DwGQ',
-    appId: '1:vAIzaSyBJ9zuP_j5Joyg_Dwb9ad0bd7',
+    apiKey: 'AIzaSyB6uQuqKV3Pe-no9xvsl1R6h-0NmUwOMGQ',
+    appId: '1:73653702134:ios:a68a84491c089fb9ad0bd7',
     messagingSenderId: '73653702134',
     projectId: 'quickie-23ff0',
     storageBucket: 'quickie-23ff0.appspot.com',

@@ -101,7 +101,7 @@ class _LoginPageState extends State<LoginPage> {
                 onPressed: () async{
                   if (await loginWithEmailPassword(_usernameController.text, _passwordController.text)){
                     if (mounted){
-                      Navigator.pushReplacementNamed(this.context, '/addCardDetails');
+                      Navigator.pushReplacementNamed(this.context, '/home');
                     }
                   }
                 },
